@@ -1,0 +1,58 @@
+@charset "UTF-8";
+.div1, .div2, .div5 {
+	display: grid;
+	place-items: center;
+}
+.div3 {
+	display: flex;
+  justify-content: center;
+  align-items:center;
+}
+.div6 {
+	display: flex;
+  justify-content: center;
+  align-items:center;
+}
+.div3:after {
+	clear: both;
+	display: block;
+	content: '';
+}
+.div6:after {
+	clear: both;
+	display: block;
+	content: '';
+}
+.div3 .b1 {
+	float: left;
+	text-align: center;
+	margin-right: 20px;
+}
+.div3 .b2 {
+	float: left;
+	text-align: center;
+	margin-left: 20px;
+}
+.div6 .b3 {
+	float: left;
+	text-align: center;
+	margin-right: 20px;
+}
+.div6 .b4 {
+	float: left;
+	text-align: center;
+	margin-left: 20px;
+	
+}
+#MInsert {
+	color: white;
+}
+#MList {
+	color: white;
+}
+#BInsert {
+	color: white;
+}
+#BList {
+	color: white;
+}

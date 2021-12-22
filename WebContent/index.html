@@ -3,18 +3,43 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="CSS/index.css">
 </head>
 <body>
-<h1>[멤버/게시판 관리 프로그램]</h1>
+		<div class="div1">
+			<h1 class="Main">[멤버/게시판 관리 프로그램]</h1>
+		</div>
    <hr>
-   <h3>멤버 관리 프로그램</h3>
-
-   <a href="insertForm.do">멤버 입력</a><br>
-   <a href="list.do">멤버 목록</a><br><br>
+   	<div class="div2">
+   		<h3 class="SubMain1">멤버 관리 프로그램</h3>
+		</div>
+		<div class="div3">
+				<div class="b1">
+				<button type="button" class="btn btn-primary btn-lg">
+					<a href="insertForm.do" id="MInsert">멤버 입력</a>
+				</button>
+				</div>
+				<div class="b2">
+   			<button type="button" class="btn btn-primary btn-lg">
+   				<a href="list.do" id="MList">멤버 목록</a>
+   			</button>
+   			</div>
+   	</div>
+   	<br><br><br>
    <hr>
-   <h3>게시판 관리 프로그램</h3>
-   
-   <a href="insertBoard.do">게시글 입력</a><br>
-   <a href="Boardlist.do">게시글 목록</a><br>
+   <div class="div5">
+   		<h3 class="SubMain2">게시판 관리 프로그램</h3>
+   </div>
+   <div class="div6">
+   			<div class="b3">
+   			<button type="button" class="btn btn-primary btn-lg"><a href="insertBoard.do" id="BInsert">게시글 입력</a></button>
+   			</div>
+   			<div class="b4">
+   			<button type="button" class="btn btn-primary btn-lg"><a href="Boardlist.do" id="BList">게시글 목록</a></button><br>
+   			</div>
+   </div>
 </body>
 </html>
